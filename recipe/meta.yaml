@@ -1,6 +1,6 @@
 {% set python_min = "3.8" %}
 {% set name = "datapi" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datapi-{{ version }}.tar.gz
-  sha256: 9346d1ce8bbada920da2d4fe0c932d8e7b36c8dd8bc7851862e87712cfa32fda
+  sha256: 8b28331413f0e340bf6634343325c406a0230518b9b828bbe19d2ee19458c599
 
 build:
   noarch: python
